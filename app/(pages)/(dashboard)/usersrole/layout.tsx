@@ -43,7 +43,7 @@ export default function UserMgtLayout({ children }: Props) {
   );
 }
 
-export const USER_MGT_TAB_ITEMS = [
+const USER_MGT_TAB_ITEMS = [
   { key: "users", label: "Users" },
   { key: "roles", label: "Roles" },
   { key: "role-assignment", label: "Role Assignment" },
