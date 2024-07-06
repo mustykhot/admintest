@@ -307,7 +307,7 @@ const Input: React.FC<CustomInputProps> = (props) => {
               addNew ? (
                 <div className="flex flex-col gap-1 p-1">
                   <p className="font-medium text-xs text-black/50">
-                    Press "Enter" to add a new item
+                    Press Enter to add a new item
                   </p>
                   <AntdInput
                     placeholder="Add another"
@@ -589,12 +589,13 @@ const Input: React.FC<CustomInputProps> = (props) => {
                           Loading...
                         </div>
                       ) : suggestions.length ? (
-                        suggestions.map((s) => (
+                        suggestions.map((s, i: number) => (
                           <div
                             {...getSuggestionItemProps(s, {
                               className:
                                 "px-3 py-2 rounded bg-white hover:bg-[#F5F5F5] cursor-pointer",
                             })}
+                            key={i}
                           >
                             {s.description}
                           </div>

@@ -130,12 +130,11 @@ export default function JSONToExcel({
       type={buttonType || "primary"}
       onClick={onClick}
       className={className}
-      children={
-        <>
-          <span style={{ marginRight: "2px" }}>{text}</span>
-          {loadingData && <LoadingOutlined />}
-        </>
-      }
-    />
+    >
+      <>
+        <span style={{ marginRight: "2px" }}>{text}</span>
+        {loadingData && <LoadingOutlined />}
+      </>
+    </Button>
   );
 }
