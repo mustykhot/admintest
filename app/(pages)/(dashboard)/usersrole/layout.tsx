@@ -7,12 +7,10 @@ import Tabs from "@components/common/Tabs";
 import { useRouter } from "next/navigation";
 
 interface Props {
-  activeKey: "users" | "roles" | "role-assignment";
-  tabButton?: JSX.Element | null;
   children: ReactNode;
 }
 
-export default function UserMgtLayout(props: Props) {
+export default function UserMgtLayout({ children }: Props) {
   const router = useRouter();
   // const { profile, user } = useSelector((state: RootState) => state.user);
 
@@ -29,9 +27,7 @@ export default function UserMgtLayout(props: Props) {
           <h3>User Management</h3>
           <Tabs
             className={classes.ant_tabs}
-            activeKey={props.activeKey}
             onTabClick={(key) => router.push(`/admin/user-mgt/${key}`)}
-            tabBarExtraContent={props?.tabButton ? props.tabButton : null}
             tabItems={USER_MGT_TAB_ITEMS.map((item) => ({
               component: null,
               data: {
@@ -41,7 +37,7 @@ export default function UserMgtLayout(props: Props) {
             }))}
           />
         </nav>
-        {props.children}
+        {children}
       </div>
     </div>
   );

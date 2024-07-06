@@ -23,7 +23,6 @@ import PlacesAutocomplete, {
   geocodeByAddress,
   getLatLng,
 } from "react-places-autocomplete";
-import ImageUploader from "../ImageUploader";
 import { CustomInputProps } from "@constants/types";
 
 const Input: React.FC<CustomInputProps> = (props) => {
@@ -605,28 +604,6 @@ const Input: React.FC<CustomInputProps> = (props) => {
                   </div>
                 )}
               </PlacesAutocomplete>
-            )}
-          />
-        );
-      case "image":
-        return (
-          <Controller
-            name={name}
-            defaultValue={defaultValue}
-            control={control}
-            //@ts-ignore
-            render={({ value, onChange }) => (
-              <ImageUploader
-                value={value}
-                onChange={(v) => {
-                  onChange(v);
-                  props?.onChange?.(v as any);
-                }}
-                aspect={imageAspect}
-                placeholder={placeholder}
-                size={imageSize}
-                uploadHandler={rest.imageUploadHandler}
-              />
             )}
           />
         );
