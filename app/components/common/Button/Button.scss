@@ -1,0 +1,37 @@
+.yaraa-btn.ant-btn {
+  display: flex;
+  align-items: center;
+  height: 37px;
+  border-radius: 8px;
+  box-shadow: none;
+
+  &-primary {
+    border: none;
+    background: linear-gradient(180deg, #10b2b4 35.61%, #0970aa 209.65%);
+    &:hover {
+      border: none;
+      background: linear-gradient(
+        180deg,
+        #2ebabf 35.61%,
+        #2ebabf 209.65%
+      ) !important;
+    }
+    &:disabled {
+      background: rgb(227, 227, 227) !important;
+      color: grey;
+      border: 0.5 solid #2e2e2e;
+    }
+  }
+  &:disabled {
+    background: rgb(227, 227, 227);
+    color: grey;
+    border: 0.5 solid #2e2e2e;
+  }
+  &-default {
+    border: 0.5 solid #2e2e2e;
+    &:hover {
+      border: 0.5 solid #0970aa;
+      color: #0970aa;
+    }
+  }
+}

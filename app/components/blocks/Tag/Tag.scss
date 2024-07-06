@@ -1,0 +1,30 @@
+.yaraa-tag.ant-tag{
+    border-radius: 20px;
+    padding: 2px 8px;
+    border: none;
+    &-processing{
+        background-color: #987EE71f;
+        color: #987EE7;
+        border-color: #987EE71f;
+    }
+    &-success{
+        background-color: #1ABA001f;
+        color: #1ABA00;
+        border-color: #1ABA001f;
+    }
+    &-error{
+        background-color: #FF33331f;
+        color: #FF3333;
+        border-color: #FF33331f;
+    }
+    &-warning{
+        background-color: #B177001f;
+        color: #B17700;
+        border-color: #B177001f;
+    }
+    &-default{
+        background-color: #1511EC1f;
+        color: #1511EC;
+        border-color: #1511EC1f;
+    }
+}

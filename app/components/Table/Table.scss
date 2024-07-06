@@ -1,0 +1,194 @@
+.ant-dropdown-menu.ant-dropdown-menu-root {
+  max-height: 10rem;
+  overflow-y: auto;
+}
+.ant-table-wrapper.yaraa-table {
+  &.hide-header {
+    .ant-table-thead {
+      display: none;
+    }
+  }
+  &.comment-table {
+    .ant-table {
+      border: none;
+    }
+    .ant-table-tbody {
+      .ant-table-row:not(:last-child) {
+        td {
+          border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+        }
+      }
+    }
+  }
+  &.yaraa-table-selectable {
+    .ant-table-tbody {
+      .ant-table-row {
+        cursor: pointer;
+        &:hover {
+          td {
+            background-color: rgba(226, 246, 246, 0.5) !important;
+            border-radius: 0;
+            &:hover {
+              border-radius: 0;
+            }
+          }
+        }
+      }
+      .ant-table-row.ant-table-row-selected {
+        td {
+          background-color: rgba(226, 246, 246) !important;
+          border-radius: 0;
+          &:hover {
+            border-radius: 0;
+          }
+        }
+      }
+    }
+  }
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #10b2b4 !important;
+    border-color: #10b2b4 !important;
+  }
+
+  .ant-checkbox-indeterminate .ant-checkbox-inner:after {
+    background-color: #10b2b4 !important;
+  }
+  .checkbox-column .ant-checkbox-wrapper .ant-checkbox-inner:hover {
+    background-color: #10b2b4 !important;
+    border-color: #10b2b4 !important;
+  }
+
+  .ant-table {
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    .ant-table-container {
+      border-start-start-radius: 12px;
+      border-start-end-radius: 12px;
+      .ant-table-thead {
+        tr {
+          &:first-child {
+            border-start-start-radius: 12px;
+          }
+          th {
+            background-color: unset;
+            border-bottom: none;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.57);
+            font-size: 14px;
+            padding: 18px 14px;
+            &::before {
+              display: none;
+            }
+          }
+        }
+      }
+      .ant-table-tbody {
+        tr {
+          td {
+            padding: 18px 14px;
+            border-top: none;
+            border-bottom: none;
+            border-radius: 0px !important;
+          }
+        }
+      }
+      .ant-table-summary {
+        background: unset !important;
+        tr {
+          td {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+  .ant-pagination.ant-table-pagination {
+    .ant-pagination-prev {
+      &.ant-pagination-disabled {
+        display: none;
+      }
+      .ant-pagination-item-link {
+        background: linear-gradient(180deg, #10b2b4 35.61%, #0970aa 209.65%);
+        border-radius: 37px;
+        color: white;
+      }
+    }
+    .ant-pagination-next {
+      &.ant-pagination-disabled {
+        display: none;
+      }
+      .ant-pagination-item-link {
+        background: linear-gradient(180deg, #10b2b4 35.61%, #0970aa 209.65%);
+        border-radius: 37px;
+        color: white;
+      }
+    }
+    .ant-pagination-item {
+      background: #e2f6f6;
+      border: none;
+      border-radius: 8px;
+      * {
+        color: #717b7b;
+      }
+      &.ant-pagination-item-active {
+        background: linear-gradient(180deg, #10b2b4 35.61%, #0970aa 209.65%);
+        font-family: "Poppins" sans-serif;
+        * {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.ant-input-affix-wrapper.yaraa-search-input {
+  padding: 8px 12px;
+  border-radius: 100px;
+  border: none;
+  background-color: #f5f5f5;
+  width: 100%;
+  min-width: 250px;
+  // margin-bottom: 30px;
+  .ant-input-prefix {
+    margin-inline-end: 8px;
+  }
+  .ant-input {
+    font-family: "Poppins";
+    background-color: #f5f5f5;
+    color: black;
+  }
+}
+
+.ant-popover.yaraa-app-filter-popover {
+  width: 320px;
+
+  .ant-popover-inner-content {
+    width: 100%;
+  }
+
+  label {
+    span {
+      font-weight: 400 !important;
+      font-size: 14px !important;
+    }
+  }
+}
+
+.ant-popover.yaraa-app-wide-filter-popover {
+  width: 400px;
+
+  .ant-popover-inner-content {
+    width: 100%;
+  }
+
+  label {
+    span {
+      font-weight: 400 !important;
+      font-size: 14px !important;
+    }
+  }
+}
+
+.mdiv {
+  margin-left: auto;
+}

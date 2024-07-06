@@ -1,0 +1,71 @@
+//--------------------------------------------------------------------
+//Typography
+//--------------------------------------------------------------------
+
+@font-face {
+  font-family: "GT Walsheim-regular";
+  src: url(../components/fonts/GTWalsheimPro-Regular.ttf) format("truetype"),
+    url(../components/fonts/GTWalsheimPro-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "GT Walsheim-light";
+  src: url(../components/fonts/GTWalsheimPro-Light.ttf) format("truetype"),
+    url(../components/fonts/GTWalsheimPro-Light.woff) format("woff");
+}
+@font-face {
+  font-family: "GT Walsheim-thin";
+  src: url(../components/fonts/GTWalsheimPro-Thin.ttf) format("truetype"),
+    url(../components/fonts/GTWalsheimPro-Thin.woff) format("woff");
+}
+@font-face {
+  font-family: "GT Walsheim-bold";
+  src: url(../components/fonts/GTWalsheimPro-Bold.ttf) format("truetype"),
+    url(../components/fonts/GTWalsheimPro-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "GT Walsheim-medium";
+  src: url(../components/fonts/GTWalsheimPro-Medium.ttf) format("truetype"),
+    url(../components/fonts/GTWalsheimPro-Medium.woff) format("woff");
+}
+@font-face {
+  font-family: "GT Walsheim-medium";
+  src: url(../components/fonts/GTWalsheimPro-Medium.ttf) format("truetype"),
+    url(../components/fonts/GTWalsheimPro-Medium.woff) format("woff");
+}
+
+//YARA FONTS
+
+@font-face {
+  font-family: "Candal";
+  src: url(../components/fonts/Candal-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Averia-regular";
+  src: url(../components/fonts/AveriaLibre-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Averia-light";
+  src: url(../components/fonts/AveriaLibre-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Averia-bold";
+  src: url(../components/fonts/AveriaLibre-Bold.ttf) format("truetype");
+}
+
+// Yaraa fonts
+@font-face {
+  font-family: "Poppins-regular";
+  src: url(../components//fonts/Poppins-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins-medium";
+  src: url(../components//fonts/Poppins-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins-semiBold";
+  src: url(../components//fonts/Poppins-SemiBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Poppins-bold";
+  src: url(../components//fonts/Poppins-Bold.ttf) format("truetype");
+}

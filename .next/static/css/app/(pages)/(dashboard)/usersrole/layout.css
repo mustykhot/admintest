@@ -1,0 +1,223 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/components/styles/buyer.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.buyer_main_wrapper__R1NHT {
+  padding: 8px;
+  padding-left: 0;
+}
+.buyer_main_wrapper__R1NHT h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  color: #111111;
+}
+
+.buyer_container__SRRUY {
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  padding-bottom: 80px;
+  background-color: white;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+.buyer_alt_container__qSzwZ {
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+.buyer_loading_container__Of86A {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30vh;
+  background-color: white;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+.buyer_nav__dJ57Q {
+  width: 100%;
+  min-height: 44.8px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 8px 16px;
+  background-color: white;
+}
+
+.buyer_content__BunV5 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 16px;
+}
+
+.buyer_row_content__Dm6ds {
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px;
+}
+
+.buyer_grid_container__50ikO {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.buyer_grid_container_alt__oHrao {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+}
+
+.buyer_ant_tabs__bwk_X {
+  flex-grow: 1;
+}
+.buyer_ant_tabs__bwk_X > div[role=tablist] {
+  padding: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.buyer_procurement_users_delete__hRomi:hover svg {
+  color: white;
+}
+
+.buyer_create-catalog-shadow__b4F2g {
+  box-shadow: 0px 7.2px 48px rgba(0, 0, 0, 0.12), 0px 1.575px 25.0328px rgba(0, 0, 0, 0.013);
+}
+
+.buyer_yaraa-checkbox__tq3xL.buyer_ant-checkbox-group__KCK7Y {
+  margin-inline-start: 0px;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+}
+
+.buyer_base_button__PCnqj {
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+@media (max-width: 1023px) {
+  .buyer_row_content__Dm6ds {
+    flex-direction: column;
+  }
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./app/components/common/Tabs/Tabs.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.yaraa-tabs.ant-tabs-left .ant-tabs-tab-btn {
+  text-align: left;
+  margin: 0;
+}
+.yaraa-tabs.ant-tabs-left div.ant-tabs-content-holder {
+  border-left: none;
+}
+.yaraa-tabs .ant-tabs-nav {
+  padding-block: 12px;
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: 30px;
+}
+.yaraa-tabs .ant-tabs-nav::before {
+  border: none;
+}
+.yaraa-tabs.bordered .ant-tabs-nav {
+  padding: 12px;
+  border: 1px solid #f5f5f5;
+  border-radius: 12px;
+  background: white;
+}
+.yaraa-tabs .ant-tabs-tab {
+  padding: 8px 10px;
+  transition: background 2s;
+}
+.yaraa-tabs .ant-tabs-tab-active {
+  background: linear-gradient(180deg, rgba(16, 178, 180, 0.12) 35.61%, rgba(9, 112, 170, 0.12) 209.65%);
+  border-radius: 8px;
+  animation: transition-background 0.05s ease-in-out;
+}
+.yaraa-tabs .ant-tabs-tab + .ant-tabs-tab {
+  margin: 0;
+  margin-left: 1rem;
+}
+.yaraa-tabs .ant-tabs-tab-btn {
+  margin: 0 auto;
+  padding: 0px;
+  color: #475467;
+  font-size: 14px;
+  font-weight: 500;
+}
+.yaraa-tabs .ant-tabs-ink-bar {
+  background-color: transparent;
+}
+.yaraa-tabs .yaraa-tab-title {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 0px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 0.5019607843);
+  transition: all 0.05s ease-in-out;
+}
+
+.yaraa-tab-count {
+  font-size: 0.8rem;
+  border-radius: 1.5rem;
+  padding: 2px 6px;
+  font-family: Poppins;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  margin-left: 6px;
+  line-height: 1rem;
+  color: white;
+  min-width: 1rem;
+  background: linear-gradient(180deg, #10b2b4 35.61%, #0970aa 209.65%);
+}
+
+.yaraa-tabs.ant-tabs-top .ant-tabs-nav-wrap {
+  width: 200px;
+}
+.yaraa-tabs.ant-tabs-top .ant-tabs-nav-more {
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.yaraa-tabs.ant-tabs-top .ant-tabs-nav-more::after {
+  height: unset;
+  content: "...";
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  transform: translateY(-9px);
+}
+
+@keyframes transition-background {
+  0% {
+    background: linear-gradient(180deg, rgba(16, 178, 180, 0) 35.61%, rgba(9, 112, 170, 0) 209.65%);
+  }
+  100% {
+    background: linear-gradient(180deg, rgba(16, 178, 180, 0.12) 35.61%, rgba(9, 112, 170, 0.12) 209.65%);
+  }
+}

@@ -1,0 +1,90 @@
+.ant-input-affix-wrapper {
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.yaraa-input.ant-input {
+  font-family: inherit;
+  border-radius: 8px;
+  padding: 8px 12px;
+  min-height: 38px;
+}
+
+.yaraa-input.ant-input-group-wrapper {
+  min-height: 38px;
+
+  & .ant-input {
+    border-radius: 8px 0 0 8px;
+    padding: 8px 12px;
+    min-height: 38px;
+  }
+}
+
+.ant-form.ant-form-vertical {
+  .ant-form-item {
+    margin-bottom: 14px;
+  }
+
+  .ant-form-item-label {
+    padding: 0;
+  }
+}
+
+.ant-select.yaraa-select {
+  font-family: "Poppins", sans-serif;
+  min-height: 38px;
+
+  .ant-select-selector {
+    border-radius: 8px;
+    min-height: 38px;
+    padding: 0 12px;
+
+    .ant-select-selection-item,
+    .ant-select-selection-placeholder {
+      line-height: 23px !important;
+    }
+
+    .ant-select-selection-search-input {
+      height: 40px !important;
+    }
+  }
+}
+
+.yaraa-input.ant-picker {
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.treasury-multi-select {
+  .ant-select-selector {
+    min-height: 40px;
+  }
+}
+
+.PhoneInput {
+  padding-left: 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.15s;
+  &Input {
+    padding: 8px 12px;
+    outline: none;
+  }
+  &:has(:focus) {
+    border-color: #0fa7b2;
+    box-shadow: 0 0 0 2px rgba(8, 168, 155, 0.15);
+    outline: 0;
+  }
+  &.input-error {
+    border-color: #ff4d4f;
+    &:hover {
+      border-color: #ff4d4f80;
+    }
+  }
+  & .PhoneInputCountry {
+    padding-right: 8px;
+    margin-right: 0;
+    border-right: 1px solid #d9d9d9;
+  }
+}

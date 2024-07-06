@@ -1,0 +1,138 @@
+//--------------------------------------------
+//Button Configuration
+//--------------------------------------------
+
+.container {
+  margin-right: 0px;
+  margin-left: 0px;
+  max-width: 100%;
+}
+
+.btn.btn-sm {
+  height: calc(48em / $scale);
+  font-size: calc(14em / $scale);
+  padding: 0 calc(20em / $scale);
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.btn.btn-md {
+  height: calc(45em / $scale);
+  font-size: calc(14em / $scale);
+  padding: 0 calc(45em / $scale);
+  border-radius: 10px;
+  width: -webkit-fill-available;
+}
+
+.btn.btn-lg {
+  height: calc(55em / $scale);
+  font-size: calc(16em / $scale);
+  padding: 0 calc(55em / $scale);
+  border-radius: 10px;
+}
+
+.fontBig {
+  font-size: 1.15rem;
+}
+
+.btn {
+  &:focus {
+    box-shadow: none !important;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  background-color: $yara-blue;
+}
+
+.btn.btn-primary {
+  background-color: $yara-blue;
+  border-radius: 10px;
+  border-color: $yara-blue;
+  // padding: 0.7375rem 0;
+
+  &:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  &:active {
+    background-color: $yara-blue !important;
+    border: none !important;
+  }
+}
+
+.btn.btn-skeleton {
+  border-radius: 10px;
+  padding: 0.7375rem 0;
+  color: $ash;
+  background: #ffffff;
+  border: 1px solid #dfe2e6;
+}
+
+.btn.btn-temporary {
+  background-color: $yara-lime;
+  border-radius: 10px;
+  border-color: $yara-lime;
+  padding: 0.7375rem 0;
+  color: #ffffff;
+
+  &:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  &:active {
+    background-color: $yara-lime !important;
+    border: none !important;
+  }
+}
+
+.btn.btn-secondary {
+  background-color: $yara-blue-opacity;
+  border-radius: 10px;
+  border-color: $light-green;
+  border: none;
+  padding: 0.7375rem 0;
+  color: $yara-blue;
+}
+
+//--------------------------------------------
+//Utility Classes
+//--------------------------------------------
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.mobile-none {
+  @media screen and (max-width: 969px) {
+    display: none;
+  }
+}
+
+.modal-length {
+  overflow-y: auto !important;
+}
+
+// .modal-container .contentwrapper{
+//     min-height: 705px !important;
+// }
+// Toast Class
+.toastr {
+  .toastr.animated.rrt-success {
+    background-color: $green !important;
+  }
+}
+
+.bodyfix {
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+}

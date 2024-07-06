@@ -1,0 +1,69 @@
+.app-wrapper {
+  // background-color: $white;
+  background-color: #e5e5e5;
+  // padding: 20px 0px 0px 20px;
+  // display: flex;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+
+  @media screen and (max-width: 969px) {
+    padding: 0;
+  }
+
+  .page-container {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .main-body {
+    display: flex;
+    width: 100%;
+    position: relative;
+    margin-bottom: 3.5rem;
+    overflow-x: scroll;
+
+    .btmImg {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
+
+    .right-col {
+      background: #fafafa;
+      border: 1px solid $line;
+      box-sizing: border-box;
+      box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+      // border-radius: 10px 0px 0px 0px;
+      width: 100%;
+      padding: 20px;
+      height: auto;
+      min-height: 100vh;
+
+      &.document-view {
+        padding: 0;
+      }
+
+      @media screen and (max-width: 969px) {
+        border-radius: 0px 0px 0px 0px;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+.route-transition {
+  animation: fade 0.5s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

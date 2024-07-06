@@ -1,0 +1,420 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./app/components/common/Button/Button.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.yaraa-btn.ant-btn {
+  display: flex;
+  align-items: center;
+  height: 37px;
+  border-radius: 8px;
+  box-shadow: none;
+}
+.yaraa-btn.ant-btn-primary {
+  border: none;
+  background: linear-gradient(180deg, #10b2b4 35.61%, #0970aa 209.65%);
+}
+.yaraa-btn.ant-btn-primary:hover {
+  border: none;
+  background: linear-gradient(180deg, #2ebabf 35.61%, #2ebabf 209.65%) !important;
+}
+.yaraa-btn.ant-btn-primary:disabled {
+  background: rgb(227, 227, 227) !important;
+  color: grey;
+  border: 0.5 solid #2e2e2e;
+}
+.yaraa-btn.ant-btn:disabled {
+  background: rgb(227, 227, 227);
+  color: grey;
+  border: 0.5 solid #2e2e2e;
+}
+.yaraa-btn.ant-btn-default {
+  border: 0.5 solid #2e2e2e;
+}
+.yaraa-btn.ant-btn-default:hover {
+  border: 0.5 solid #0970aa;
+  color: #0970aa;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/components/styles/buyer.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.buyer_main_wrapper__R1NHT {
+  padding: 8px;
+  padding-left: 0;
+}
+.buyer_main_wrapper__R1NHT h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  color: #111111;
+}
+
+.buyer_container__SRRUY {
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  padding-bottom: 80px;
+  background-color: white;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+.buyer_alt_container__qSzwZ {
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+.buyer_loading_container__Of86A {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30vh;
+  background-color: white;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+.buyer_nav__dJ57Q {
+  width: 100%;
+  min-height: 44.8px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 8px 16px;
+  background-color: white;
+}
+
+.buyer_content__BunV5 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 16px;
+}
+
+.buyer_row_content__Dm6ds {
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px;
+}
+
+.buyer_grid_container__50ikO {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.buyer_grid_container_alt__oHrao {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+}
+
+.buyer_ant_tabs__bwk_X {
+  flex-grow: 1;
+}
+.buyer_ant_tabs__bwk_X > div[role=tablist] {
+  padding: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.buyer_procurement_users_delete__hRomi:hover svg {
+  color: white;
+}
+
+.buyer_create-catalog-shadow__b4F2g {
+  box-shadow: 0px 7.2px 48px rgba(0, 0, 0, 0.12), 0px 1.575px 25.0328px rgba(0, 0, 0, 0.013);
+}
+
+.buyer_yaraa-checkbox__tq3xL.buyer_ant-checkbox-group__KCK7Y {
+  margin-inline-start: 0px;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+}
+
+.buyer_base_button__PCnqj {
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+@media (max-width: 1023px) {
+  .buyer_row_content__Dm6ds {
+    flex-direction: column;
+  }
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./app/components/Table/Table.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ant-dropdown-menu.ant-dropdown-menu-root {
+  max-height: 10rem;
+  overflow-y: auto;
+}
+
+.ant-table-wrapper.yaraa-table.hide-header .ant-table-thead {
+  display: none;
+}
+.ant-table-wrapper.yaraa-table.comment-table .ant-table {
+  border: none;
+}
+.ant-table-wrapper.yaraa-table.comment-table .ant-table-tbody .ant-table-row:not(:last-child) td {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+.ant-table-wrapper.yaraa-table.yaraa-table-selectable .ant-table-tbody .ant-table-row {
+  cursor: pointer;
+}
+.ant-table-wrapper.yaraa-table.yaraa-table-selectable .ant-table-tbody .ant-table-row:hover td {
+  background-color: rgba(226, 246, 246, 0.5) !important;
+  border-radius: 0;
+}
+.ant-table-wrapper.yaraa-table.yaraa-table-selectable .ant-table-tbody .ant-table-row:hover td:hover {
+  border-radius: 0;
+}
+.ant-table-wrapper.yaraa-table.yaraa-table-selectable .ant-table-tbody .ant-table-row.ant-table-row-selected td {
+  background-color: rgb(226, 246, 246) !important;
+  border-radius: 0;
+}
+.ant-table-wrapper.yaraa-table.yaraa-table-selectable .ant-table-tbody .ant-table-row.ant-table-row-selected td:hover {
+  border-radius: 0;
+}
+.ant-table-wrapper.yaraa-table .ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #10b2b4 !important;
+  border-color: #10b2b4 !important;
+}
+.ant-table-wrapper.yaraa-table .ant-checkbox-indeterminate .ant-checkbox-inner:after {
+  background-color: #10b2b4 !important;
+}
+.ant-table-wrapper.yaraa-table .checkbox-column .ant-checkbox-wrapper .ant-checkbox-inner:hover {
+  background-color: #10b2b4 !important;
+  border-color: #10b2b4 !important;
+}
+.ant-table-wrapper.yaraa-table .ant-table {
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+.ant-table-wrapper.yaraa-table .ant-table .ant-table-container {
+  border-start-start-radius: 12px;
+  border-start-end-radius: 12px;
+}
+.ant-table-wrapper.yaraa-table .ant-table .ant-table-container .ant-table-thead tr:first-child {
+  border-start-start-radius: 12px;
+}
+.ant-table-wrapper.yaraa-table .ant-table .ant-table-container .ant-table-thead tr th {
+  background-color: unset;
+  border-bottom: none;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.57);
+  font-size: 14px;
+  padding: 18px 14px;
+}
+.ant-table-wrapper.yaraa-table .ant-table .ant-table-container .ant-table-thead tr th::before {
+  display: none;
+}
+.ant-table-wrapper.yaraa-table .ant-table .ant-table-container .ant-table-tbody tr td {
+  padding: 18px 14px;
+  border-top: none;
+  border-bottom: none;
+  border-radius: 0px !important;
+}
+.ant-table-wrapper.yaraa-table .ant-table .ant-table-container .ant-table-summary {
+  background: unset !important;
+}
+.ant-table-wrapper.yaraa-table .ant-table .ant-table-container .ant-table-summary tr td {
+  border-bottom: none;
+}
+.ant-table-wrapper.yaraa-table .ant-pagination.ant-table-pagination .ant-pagination-prev.ant-pagination-disabled {
+  display: none;
+}
+.ant-table-wrapper.yaraa-table .ant-pagination.ant-table-pagination .ant-pagination-prev .ant-pagination-item-link {
+  background: linear-gradient(180deg, #10b2b4 35.61%, #0970aa 209.65%);
+  border-radius: 37px;
+  color: white;
+}
+.ant-table-wrapper.yaraa-table .ant-pagination.ant-table-pagination .ant-pagination-next.ant-pagination-disabled {
+  display: none;
+}
+.ant-table-wrapper.yaraa-table .ant-pagination.ant-table-pagination .ant-pagination-next .ant-pagination-item-link {
+  background: linear-gradient(180deg, #10b2b4 35.61%, #0970aa 209.65%);
+  border-radius: 37px;
+  color: white;
+}
+.ant-table-wrapper.yaraa-table .ant-pagination.ant-table-pagination .ant-pagination-item {
+  background: #e2f6f6;
+  border: none;
+  border-radius: 8px;
+}
+.ant-table-wrapper.yaraa-table .ant-pagination.ant-table-pagination .ant-pagination-item * {
+  color: #717b7b;
+}
+.ant-table-wrapper.yaraa-table .ant-pagination.ant-table-pagination .ant-pagination-item.ant-pagination-item-active {
+  background: linear-gradient(180deg, #10b2b4 35.61%, #0970aa 209.65%);
+  font-family: "Poppins" sans-serif;
+}
+.ant-table-wrapper.yaraa-table .ant-pagination.ant-table-pagination .ant-pagination-item.ant-pagination-item-active * {
+  color: white;
+}
+
+.ant-input-affix-wrapper.yaraa-search-input {
+  padding: 8px 12px;
+  border-radius: 100px;
+  border: none;
+  background-color: #f5f5f5;
+  width: 100%;
+  min-width: 250px;
+}
+.ant-input-affix-wrapper.yaraa-search-input .ant-input-prefix {
+  margin-inline-end: 8px;
+}
+.ant-input-affix-wrapper.yaraa-search-input .ant-input {
+  font-family: "Poppins";
+  background-color: #f5f5f5;
+  color: black;
+}
+
+.ant-popover.yaraa-app-filter-popover {
+  width: 320px;
+}
+.ant-popover.yaraa-app-filter-popover .ant-popover-inner-content {
+  width: 100%;
+}
+.ant-popover.yaraa-app-filter-popover label span {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+.ant-popover.yaraa-app-wide-filter-popover {
+  width: 400px;
+}
+.ant-popover.yaraa-app-wide-filter-popover .ant-popover-inner-content {
+  width: 100%;
+}
+.ant-popover.yaraa-app-wide-filter-popover label span {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+.mdiv {
+  margin-left: auto;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./app/components/common/Input/Input.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ant-input-affix-wrapper {
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.yaraa-input.ant-input {
+  font-family: inherit;
+  border-radius: 8px;
+  padding: 8px 12px;
+  min-height: 38px;
+}
+
+.yaraa-input.ant-input-group-wrapper {
+  min-height: 38px;
+}
+.yaraa-input.ant-input-group-wrapper .ant-input {
+  border-radius: 8px 0 0 8px;
+  padding: 8px 12px;
+  min-height: 38px;
+}
+
+.ant-form.ant-form-vertical .ant-form-item {
+  margin-bottom: 14px;
+}
+.ant-form.ant-form-vertical .ant-form-item-label {
+  padding: 0;
+}
+
+.ant-select.yaraa-select {
+  font-family: "Poppins", sans-serif;
+  min-height: 38px;
+}
+.ant-select.yaraa-select .ant-select-selector {
+  border-radius: 8px;
+  min-height: 38px;
+  padding: 0 12px;
+}
+.ant-select.yaraa-select .ant-select-selector .ant-select-selection-item,
+.ant-select.yaraa-select .ant-select-selector .ant-select-selection-placeholder {
+  line-height: 23px !important;
+}
+.ant-select.yaraa-select .ant-select-selector .ant-select-selection-search-input {
+  height: 40px !important;
+}
+
+.yaraa-input.ant-picker {
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.treasury-multi-select .ant-select-selector {
+  min-height: 40px;
+}
+
+.PhoneInput {
+  padding-left: 12px;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: all 0.15s;
+}
+.PhoneInputInput {
+  padding: 8px 12px;
+  outline: none;
+}
+.PhoneInput:has(:focus) {
+  border-color: #0fa7b2;
+  box-shadow: 0 0 0 2px rgba(8, 168, 155, 0.15);
+  outline: 0;
+}
+.PhoneInput.input-error {
+  border-color: #ff4d4f;
+}
+.PhoneInput.input-error:hover {
+  border-color: rgba(255, 77, 79, 0.5019607843);
+}
+.PhoneInput .PhoneInputCountry {
+  padding-right: 8px;
+  margin-right: 0;
+  border-right: 1px solid #d9d9d9;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./app/components/blocks/ConfirmModal/ConfirmationModal.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ant-modal.yaraa-confirmation-modal .ant-modal-content {
+  box-shadow: 0px 7.2px 48px rgba(0, 0, 0, 0.12), 0px 1.575px 25.0328px rgba(0, 0, 0, 0.013);
+  border-radius: 8px;
+}
+.ant-modal.yaraa-confirmation-modal .ant-modal-confirm-btns .ant-btn.ant-btn-default {
+  border: 0.5px solid rgba(46, 46, 46, 0.2);
+  box-shadow: 0px 0px 16px -4px rgba(0, 0, 0, 0.04);
+  border-radius: 8px;
+  height: 37px;
+}
+.ant-modal.yaraa-confirmation-modal .ant-modal-confirm-btns .ant-btn.ant-btn-primary {
+  background: linear-gradient(180deg, #10B2B4 35.61%, #0970AA 209.65%);
+  border-radius: 8px;
+  height: 37px;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./app/(pages)/(dashboard)/usersrole/users/[id]/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.pd_user_details_page .user_details_section .single_detail {
+  margin-bottom: 20px;
+}
+.pd_user_details_page .user_details_section .single_detail p {
+  font-size: 18px;
+  font-weight: 500;
+}

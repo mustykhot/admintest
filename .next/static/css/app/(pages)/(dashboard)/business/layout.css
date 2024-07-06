@@ -1,0 +1,120 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[9].use[5]!./app/components/styles/buyer.module.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.buyer_main_wrapper__R1NHT {
+  padding: 8px;
+  padding-left: 0;
+}
+.buyer_main_wrapper__R1NHT h3 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  color: #111111;
+}
+
+.buyer_container__SRRUY {
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  padding-bottom: 80px;
+  background-color: white;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+.buyer_alt_container__qSzwZ {
+  width: 100%;
+  min-height: calc(100vh - 64px);
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+.buyer_loading_container__Of86A {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30vh;
+  background-color: white;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+.buyer_nav__dJ57Q {
+  width: 100%;
+  min-height: 44.8px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 8px 16px;
+  background-color: white;
+}
+
+.buyer_content__BunV5 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 16px;
+}
+
+.buyer_row_content__Dm6ds {
+  display: flex;
+  gap: 12px;
+  padding: 12px 16px;
+}
+
+.buyer_grid_container__50ikO {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.buyer_grid_container_alt__oHrao {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 12px;
+}
+
+.buyer_ant_tabs__bwk_X {
+  flex-grow: 1;
+}
+.buyer_ant_tabs__bwk_X > div[role=tablist] {
+  padding: 0;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.buyer_procurement_users_delete__hRomi:hover svg {
+  color: white;
+}
+
+.buyer_create-catalog-shadow__b4F2g {
+  box-shadow: 0px 7.2px 48px rgba(0, 0, 0, 0.12), 0px 1.575px 25.0328px rgba(0, 0, 0, 0.013);
+}
+
+.buyer_yaraa-checkbox__tq3xL.buyer_ant-checkbox-group__KCK7Y {
+  margin-inline-start: 0px;
+  flex-direction: column;
+  display: flex;
+  gap: 10px;
+}
+
+.buyer_base_button__PCnqj {
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+@media (max-width: 1023px) {
+  .buyer_row_content__Dm6ds {
+    flex-direction: column;
+  }
+}
